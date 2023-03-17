@@ -1,0 +1,66 @@
+# Watch control file for uscan and hence bzr merge-upstream.
+# See uscan(1) for the file format.
+
+
+# Compulsory line, this is a version 4 file.
+version=4
+
+
+# GitHub host.
+# ============
+
+# Gitub releases produce source tarballs with just the release as filename, eg
+# v1.0.1.tar.gz. So, apart from finding the tarball, this watch line also
+# renames the downloaded tarball to package-version.tar.gz.
+
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)@ARCHIVE_EXT@%@PACKAGE@-$1.tar.gz%" \
+https://github.com/m-grant-prg/@PACKAGE@/releases \
+(?:.*?/)?v?(\d[\d.]*)@ARCHIVE_EXT@ debian
+
+
+# The 3 lines below could be appended to the line above to look for a PGP
+# signature. However, as supplied, it does not work.
+# , \
+#   pgpsigurlmangle=s/archive\/(\d\S+)@ARCHIVE_EXT@/releases\/download\/$1\/$1@ARCHIVE_EXT@\.asc/ \
+#   https://github.com/m-grant-prg/@PACKAGE@/releases .*/(\d\S+)@ARCHIVE_EXT@
+
+
+# Hermes host.
+# ============
+
+# The regex below allows for tarball name formats of package-1.0.1.tar.gz,
+# package-1.0.1+rc1.tar.gz and package-1.0.1-4-g6650f8e.tar.gz.
+
+http://hermes.mgent.home/tarballrepos/source/ \
+	@PACKAGE@-(\d[\d.]*[\w+]*[\w-]*)@ARCHIVE_EXT@ debian
+
+
+# PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig
+#opts="pgpsigurlmangle=s%$%.sig%"
+
+
+# HTTP site (basic)
+#http://example.com/downloads.html \
+#  files/@PACKAGE@-([\d\.]+)@ARCHIVE_EXT@ debian uupdate
+
+
+# Uncommment to examine a FTP server
+#ftp://ftp.example.com/pub/@PACKAGE@-(.*)@ARCHIVE_EXT@ debian uupdate
+
+
+# SourceForge hosted projects
+# http://sf.net/@PACKAGE@/ @PACKAGE@-(.*)@ARCHIVE_EXT@ debian uupdate
+
+
+# PyPI
+# https://pypi.debian.net/@PACKAGE@/@PACKAGE@-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+
+
+# Direct Git
+# opts="mode=git" http://git.example.com/@PACKAGE@.git \
+#   refs/tags/v([\d\.]+) debian uupdate
+
+
+# Uncomment to find new files on GooglePages
+# http://example.googlepages.com/foo.html @PACKAGE@-(.*)@ARCHIVE_EXT@
+
