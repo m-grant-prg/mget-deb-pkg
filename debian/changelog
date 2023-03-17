@@ -1,0 +1,196 @@
+mget (1.1.17-0ubuntu22.04u1) jammy; urgency=medium
+
+  * Create jammy branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 29 Apr 2022 15:16:19 +0100
+
+mget (1.1.17-deb11u2) bullseye; urgency=medium
+
+  * Upgrade to compatibility level 13.
+  * Update debian/* Copyright for 2022.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 29 Apr 2022 15:03:19 +0100
+
+mget (1.1.17-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Reviewed up to current standards version 4.5.1
+  * Correct license in copyright.
+  * Remove unnecessary .docs file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 26 Nov 2021 09:46:19 +0000
+
+mget (1.1.16-deb11u1) bullseye; urgency=medium
+
+  * Create bullseye branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 20 Aug 2021 08:16:35 +0100
+
+mget (1.1.16-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 06 Jul 2021 09:32:35 +0100
+
+mget (1.1.15+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+  * Update Copyright for 2021.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 05 Mar 2021 14:16:39 +0000
+
+mget (1.1.15-deb10u2) buster; urgency=medium
+
+  * Upgrade to compatibility level 12.
+  * Package reviewed up to current standards version 4.3.0.
+  * Update Debian files copyright for 2020.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Oct 2019 09:57:50 +0100
+
+mget (1.1.15-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 18 Sep 2019 10:15:50 +0100
+
+mget (1.1.14+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 06 Sep 2019 15:27:55 +0100
+
+mget (1.1.14+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+    Update Debian Copyright dates.
+    Change watch file for new filenames and repo location.
+    Change docs to package-docs.docs.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 04 Sep 2019 13:43:00 +0100
+
+mget (1.1.14-deb10u1) buster; urgency=medium
+
+  * Rebuild for buster.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 22 Jul 2019 15:31:06 +0000
+
+mget (1.1.14-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+    Update watch file to latest standard version.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 01 Nov 2018 14:25:06 +0000
+
+mget (1.1.13-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 19 Oct 2018 13:59:07 +0100
+
+mget (1.1.12-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 27 Aug 2018 15:04:17 +0100
+
+mget (1.1.11-deb9u3) stretch; urgency=medium
+
+  * Change architecture to all as this package is architecture independent.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 24 Aug 2018 09:59:07 +0100
+
+mget (1.1.11-deb9u2) stretch; urgency=medium
+
+  * Accommodate change to directory where source tarball is found on hermes.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Apr 2018 07:21:07 +0100
+
+mget (1.1.11-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 12 Apr 2018 14:59:46 +0100
+
+mget (1.1.10-mgent1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 24 Feb 2018 14:44:43 +0000
+
+mget (1.1.9-4-g3e5ef51-mgent2) stretch; urgency=medium
+
+  * Remove unnecessary Depends ${shlibs:Depends} in control file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 24 Feb 2018 14:38:00 +0000
+
+mget (1.1.9-4-g3e5ef51-mgent1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 10 Feb 2018 10:42:00 +0000
+
+mget (1.1.9-0mgent1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 03 Dec 2017 07:48:02 +0000
+
+mget (1.1.8-0mgent4) stretch; urgency=medium
+
+  * Correct copyright file to GPLv3.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 28 Nov 2017 10:50:45 +0100
+
+mget (1.1.8-0mgent3) stretch; urgency=medium
+
+  * Update Maintainers string.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 Oct 2017 10:06:45 +0100
+
+mget (1.1.8-0mgent2) stretch; urgency=medium
+
+  * Correct Maintainers string in changelog.
+
+ -- Mark Grant Prg <m.grant.prg@gmail.com>  Sun, 20 Aug 2017 10:02:45 +0100
+
+mget (1.1.8-0mgent1) stretch; urgency=medium
+
+  * Change package version format.
+
+ -- Mark Grant PRG <m.grant.prg@gmail.com>  Mon, 14 Aug 2017 15:49:45 +0100
+
+mget (1.1.8-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant PRG <m.grant.prg@gmail.com>  Sat, 01 Jul 2017 13:10:45 +0100
+
+mget (1.1.7-0ubuntu1) xenial; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant PRG <m.grant.prg@gmail.com>  Mon, 01 May 2017 15:19:37 +0100
+
+mget (1.1.6-0ubuntu3) xenial; urgency=medium
+
+  * Update to xenial.
+
+ -- Mark Grant Prg <m.grant.prg@gmail.com>  Sat, 23 Apr 2016 16:02:05 +0100
+
+mget (1.1.6-0ubuntu2) wily; urgency=medium
+
+  * Update to wily.
+
+ -- Mark Grant Prg <m.grant.prg@gmail.com>  Tue, 24 Nov 2015 13:34:05 +0100
+
+mget (1.1.6-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant Prg <m.grant.prg@gmail.com>  Tue, 20 Oct 2015 09:57:05 +0100
+
+mget (1.1.5-0ubuntu1) vivid; urgency=low
+
+  * Initial release.
+
+ -- Mark Grant Prg <m.grant.prg@gmail.com>  Fri, 26 Jun 2015 15:04:54 +0100
