@@ -1,9 +1,9 @@
-mget (1.1.17-0ubuntu22.04u2) UNRELEASED; urgency=medium
+mget (1.1.17-0ubuntu22.04u2) jammy; urgency=medium
 
   * Update Copyright for 2023.
   * Update watch file to use git mode.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 08:57:41 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 08:59:31 +0000
 
 mget (1.1.17-0ubuntu22.04u1) jammy; urgency=medium
 
