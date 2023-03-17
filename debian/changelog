@@ -1,6 +1,7 @@
 mget (1.1.17+deb11u3) UNRELEASED; urgency=medium
 
   * Update Copyright for 2023.
+  * Update watch file to use git mode.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 08:28:39 +0000
 
