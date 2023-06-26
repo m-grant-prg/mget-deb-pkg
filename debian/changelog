@@ -1,8 +1,8 @@
-mget (1.2.0+deb11u2) UNRELEASED; urgency=medium
+mget (1.2.0+deb11u2) bullseye; urgency=medium
 
   * Correct editor versions.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 10:38:51 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 10:42:08 +0100
 
 mget (1.2.0+deb11u1) bullseye; urgency=medium
 
