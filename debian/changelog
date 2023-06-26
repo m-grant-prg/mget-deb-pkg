@@ -1,3 +1,9 @@
+mget (1.2.0+deb11u1) UNRELEASED; urgency=medium
+
+  * Merge new upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 09:46:04 +0100
+
 mget (1.1.17+deb11u3) bullseye; urgency=medium
 
   * Update Copyright for 2023.
