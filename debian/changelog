@@ -1,6 +1,7 @@
 mget (1.2.0-0ubuntu20.04u1) UNRELEASED; urgency=medium
 
   * Merge new upstream release.
+  * Correct upstream copyright.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 09:56:27 +0100
 
