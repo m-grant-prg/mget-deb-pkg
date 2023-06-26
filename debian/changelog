@@ -1,10 +1,10 @@
-mget (1.2.0-0ubuntu20.04u1) UNRELEASED; urgency=medium
+mget (1.2.0-0ubuntu20.04u1) focal; urgency=medium
 
   * Merge new upstream release.
   * Correct upstream copyright.
   * Update watch file to support ~.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 09:56:27 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jun 2023 09:59:52 +0100
 
 mget (1.1.17-0ubuntu20.04u2) focal; urgency=medium
 
