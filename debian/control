@@ -2,7 +2,7 @@ Source: mget
 Section: misc
 Priority: optional
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
-Build-Depends: debhelper-compat (= 13), bash (>= 5.2),
+Build-Depends: debhelper-compat (= 13),
 	txt2manwrap
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/m-grant-prg/mget.git
@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/m-grant-prg/mget
 
 Package: mget
 Architecture: all
-Depends: bash, wget, util-linux,
+Depends: wget,
 	wutconv,
 	mgrant-obs-deb-keyring,
 	${misc:Depends}
