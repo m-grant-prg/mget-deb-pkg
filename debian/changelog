@@ -1,3 +1,19 @@
+mget (1.3.1~rc1+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+  * Remove versions from Depends fields, too old
+  * Remove Depends on txt2man
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Add minimum versions for bash
+  * Remove [Build-]Depends on essential packages
+  * Add lintian override for watch file
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 18 Mar 2024 09:08:58 +0000
+
 mget (1.3.0+deb12u1) bookworm; urgency=medium
 
   * Create new bookworm branch.
