@@ -3,7 +3,7 @@ Upstream-Name: mget
 Source: https://github.com/m-grant-prg/mget
 
 Files: *
-Copyright: (C) 2013-2019, 2021-2025 Mark Grant <m.grant.prg@gmail.com>
+Copyright: (C) 2013-2025 Mark Grant <m.grant.prg@gmail.com>
 License: GPL-3.0-only
 
 Files: debian/*
