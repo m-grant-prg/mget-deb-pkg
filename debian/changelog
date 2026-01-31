@@ -1,10 +1,11 @@
-mget (1.4.0~rc2+deb13u1) trixie; urgency=medium
+mget (1.4.0+deb13u1) trixie; urgency=medium
 
   * Update upstream Copyright for 2025
   * Correct Copyright dates, checked via git
   * Update Copyright for 2026
+  * New upstream release
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 23 Jan 2026 10:11:37 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 31 Jan 2026 10:39:02 +0000
 
 mget (1.3.1+deb13u2) trixie; urgency=medium
 
