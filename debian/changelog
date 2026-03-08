@@ -1,3 +1,9 @@
+mget (1.4.1+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 08 Mar 2026 15:31:08 +0000
+
 mget (1.4.1~rc1+deb13u1) trixie; urgency=medium
 
   * New upstream development release
