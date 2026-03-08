@@ -1,3 +1,9 @@
+mget (1.4.1+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 08 Mar 2026 15:37:33 +0000
+
 mget (1.4.0+ubuntu24.04u1) noble; urgency=medium
 
   * Update Debian Copyright for 2025
