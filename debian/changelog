@@ -1,3 +1,9 @@
+mget (1.4.1+deb14u1) forky; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 08 Mar 2026 15:34:26 +0000
+
 mget (1.4.0+deb14u1) forky; urgency=medium
 
   * Correct Copyright dates, checked via git
